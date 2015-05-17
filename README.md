@@ -14,7 +14,7 @@ with the help of @jedahan's scrapi.org
 
 `pip install -r requirements.txt`
 
-Rename `debbie_globals_sample.py` and fill out your mailer credentials:
+Rename `debbie_globals_sample.py` and fill out your mailer credentials, as well as test email to receive notifications:
 
 `mv debbie_globals_sample.py debbie_globals.py`
 

@@ -1,5 +1,6 @@
 import requests
 from debbieMailer import sendMail
+from debbie_globals import debbie_recipient
 
 def isOnView(object):
 	objectNumber = object.json()['CRDID']
@@ -9,7 +10,7 @@ def isOnView(object):
 		return False
 	else:
 		print 'on view'
-		recipient = 'jdiedrick@gmail.com'
+		recipient = debbie_recipient
 		sendMail(recipient, objectNumber)	
 		return True
 

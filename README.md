@@ -14,4 +14,10 @@ with the help of @jedahan's scrapi.org
 
 `pip install -r requirements.txt`
 
+Rename `debbie_globals_sample.py` and fill out your mailer credentials:
+
+`mv debbie_globals_sample.py debbie_globals.py`
+
+Then give it a go with:
+
 `python debbie.py`

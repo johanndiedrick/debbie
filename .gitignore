@@ -2,3 +2,4 @@ env
 *.pyc
 *.swp
 debbie_globals.py
+documentation

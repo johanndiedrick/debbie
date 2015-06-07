@@ -1,4 +1,5 @@
 env
+db
 *.pyc
 *.swp
 debbie_globals.py
